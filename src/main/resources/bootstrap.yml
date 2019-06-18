@@ -1,0 +1,13 @@
+server:
+    port: 5555
+    
+    
+spring:
+    application:
+        name: spmia-zuul-server
+    profiles:
+        active:
+            default
+    cloud:
+        config:
+            enabled: true
